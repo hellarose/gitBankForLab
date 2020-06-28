@@ -176,3 +176,7 @@ git push -u origin master
 上传GitHub
 
 此处用vscode的powershell会令人发疯，建议老实点使用正经命令行
+
+新建一个空文件夹
+git clone github地址
+克隆一个库
