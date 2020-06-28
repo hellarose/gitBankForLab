@@ -150,7 +150,6 @@ git reset .
 git reset File
 
 
-
 git checkout . 将所有add添入（缓存区）全部回到工作区 （丢失找回）
 
 git checkout File
