@@ -141,7 +141,6 @@ $ git reflog
 输出有关版本和版本指针
 
 
-
 $ git reset --hard commitIDTip
 
 将指针（head）指向对应提交片段匹配的版本
