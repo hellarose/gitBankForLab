@@ -102,7 +102,7 @@ $ git add FileName1 FileName2
 
 从工作区向缓存区添加若干文件，成功时无提示
 
-$ git add .   将所有文件添入
+$ git add .   将工作区所有文件添入
 
 $ git add *.html 将某一类文件添入
 
