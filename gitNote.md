@@ -173,3 +173,6 @@ clear清空命令行
 git remote add origin https://github.com/hellarose/gitBankForLab.git
 
 git push -u origin master
+上传GitHub
+
+此处用vscode的powershell会令人发疯，建议老实点使用正经命令行
