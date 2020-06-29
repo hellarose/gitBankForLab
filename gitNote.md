@@ -175,6 +175,8 @@ git push -u origin master
 
 此处用vscode的powershell会令人发疯，建议老实点使用正经命令行
 
+
+
 新建一个空文件夹
 git clone github地址
 克隆一个库
@@ -199,6 +201,17 @@ GitHubUserName.github.io
 
 
 
+#### git 忽略指定文件
+
+```
+1. 创建一个.gitignore 
+2. 在里面输入 想要忽略得文件  /dir  /day02
+3. 上传到本地/远程版本库
+4. 就实现了忽略
+```
+
+#### 
+
 
 
 分支 如果做了某些操作后的版本簇，
@@ -213,9 +226,13 @@ git branch branchName 创建分支
 
 git branch -a 查看分支
 
+git branch -D branchName 删除对应分支
+
 git checkout BranchName 切换分支
 
 git push origin branchName 向GitHub库添入分支
+
+git push origin --delete branchName 删除GitHub库中分支
 
 
 
@@ -225,15 +242,13 @@ git push origin branchName 向GitHub库添入分支
 
 git merge branchName 将对应分支合并到主分支
 
-git branch -D branchName 删除对应分支
-
 
 
 冲突解决
 
 git diff --name-only --diff-filter=U
 
-查看冲突
+查看发生冲突的文件
 
 冲突部分会被
 
