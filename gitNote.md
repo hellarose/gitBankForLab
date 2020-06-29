@@ -178,3 +178,21 @@ git push -u origin master
 新建一个空文件夹
 git clone github地址
 克隆一个库
+
+
+
+用GitHub作为作品展示/个人博客主页
+
+建立GitHubpage库
+
+GitHubUserName.github.io
+
+以GitHub账号用户名为一部分的特定写法名称
+
+本地克隆一份git clone URL
+
+将作品（index.html等）放入，然后git add commit push一套上传
+
+在浏览器地址栏键入https://GitHubUserName.github.io
+
+剩下的就是多试几遍看缘分了
