@@ -156,46 +156,6 @@ git checkout File
 
 
 
-分支 如果做了某些操作后的版本簇，
-
-操作处于哪个分支，就影响哪个分支
-
-只有分支创建后的操作才会影响之
-
-master 主分支
-
-git branch branchName 创建分支
-
-git branch -a 查看分支
-
-git checkout BranchName 切换分支
-
-git push origin branchName 向GitHub库添入分支
-
-合并分支
-
-位于主分支
-
-git merge branchName 将对应分支合并到主分支
-
-git branch -D branchName 删除对应分支
-
-冲突解决
-
-git diff --name-only --diff-filter=U
-
-查看冲突
-
-冲突部分会被
-
- <<<<<  内容A  =====  内容B  >>>>>
-
-这样标注，需要手动解决
-
-
-
-
-
 git rm FileName.Exp
 
 从本地库中移除对应文件
@@ -236,3 +196,58 @@ GitHubUserName.github.io
 在浏览器地址栏键入https://GitHubUserName.github.io
 
 剩下的就是多试几遍看缘分了
+
+
+
+
+
+分支 如果做了某些操作后的版本簇，
+
+操作处于哪个分支，就影响哪个分支
+
+只有分支创建后的操作才会影响之
+
+master 主分支
+
+git branch branchName 创建分支
+
+git branch -a 查看分支
+
+git checkout BranchName 切换分支
+
+git push origin branchName 向GitHub库添入分支
+
+
+
+合并分支
+
+位于主分支
+
+git merge branchName 将对应分支合并到主分支
+
+git branch -D branchName 删除对应分支
+
+
+
+冲突解决
+
+git diff --name-only --diff-filter=U
+
+查看冲突
+
+冲突部分会被
+
+```txt
+ <<<<<<<  HEAD
+
+内容A  
+
+=======
+
+内容B  
+
+>>>>>> branchName
+```
+
+这样标注，需要手动解决
+
