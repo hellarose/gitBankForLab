@@ -154,6 +154,10 @@ git checkout . 将所有add添入（缓存区）全部回到工作区 （丢失�
 
 git checkout File
 
+git checkout BranchName 切换分支
+
+git branch branchName 创建分支
+
 
 
 git rm FileName.Exp
