@@ -154,9 +154,29 @@ git checkout . 将所有add添入（缓存区）全部回到工作区 （丢失�
 
 git checkout File
 
-git checkout BranchName 切换分支
+
+
+分支 如果做了某些操作后的版本簇，
+
+操作处于哪个分支，就影响哪个分支
+
+master 主分支
 
 git branch branchName 创建分支
+
+git branch -a 查看分支
+
+git checkout BranchName 切换分支
+
+git push origin branchName 向GitHub库添入分支
+
+合并分支
+
+位于主分支
+
+git merge branchName 将对应分支合并到主分支
+
+git branch -D branchName 删除对应分支
 
 
 
