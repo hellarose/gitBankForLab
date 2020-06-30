@@ -32,7 +32,7 @@ Git--GitHub 开源项目-免费Git存储网站
 
 集中式：
 
-​	版本库在重要服务器，与操作端分离，工作室要不断获取和上传旧版本和新版本
+​	版本库在中央服务器，与操作端分离，工作室要不断获取和上传旧版本和新版本
 
 ​	必须联网，网速慢时传输文件成为煎熬（局域网体验姣好）
 
@@ -96,7 +96,7 @@ $ git config --global color.ui true/false 启用/禁用配色方案
 
 
 
-子目录？？？
+
 
 $ git add FileName1 FileName2
 
@@ -210,7 +210,7 @@ GitHubUserName.github.io
 4. 就实现了忽略
 ```
 
-#### 
+
 
 
 
@@ -238,7 +238,7 @@ git push origin --delete branchName 删除GitHub库中分支
 
 合并分支
 
-位于主分支
+首先应位于主分支
 
 git merge branchName 将对应分支合并到主分支
 
